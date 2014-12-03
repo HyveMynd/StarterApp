@@ -1,0 +1,27 @@
+{
+  "name": "RTTrack",
+  "version": "0.0.0",
+  "authors": [
+    "Andres Monroy (HyveMynd) <andresf.mon@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "angular-route": "~1.3.5",
+    "angular-ui": "~0.4.0",
+    "angular-resource": "~1.3.5",
+    "toastr": "~2.1.0",
+    "angular": "~1.3.5"
+  }
+}

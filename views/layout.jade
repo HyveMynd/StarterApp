@@ -1,0 +1,15 @@
+doctype html
+html(ng-app="app")
+  head
+    title= title
+    base(href="/")
+    link(rel="stylesheet", href="/vendor/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href='/vendor/toastr/toastr.min.css')
+    link(rel="stylesheet", href='/vendor/angular-ui/build/angular-ui.min.css')
+    link(rel='stylesheet', href='/css/site.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='author', content='Pixio LLC (HyveMynd)')
+    meta(charset='utf-8')
+  body(ng-controller="AppCtrl")
+    block content
+    include scripts

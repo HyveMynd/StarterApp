@@ -1,0 +1,30 @@
+{
+  "name": "RTTrack",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pixio (HyveMynd)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "bower": "^1.3.12",
+    "cookie-parser": "^1.3.3",
+    "debug": "^2.1.0",
+    "express": "^4.10.4",
+    "express-session": "^1.9.3",
+    "jade": "^1.8.1",
+    "morgan": "^1.5.0",
+    "passport": "^0.2.1",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.1.7",
+    "stylus": "^0.49.3",
+    "underscore": "^1.7.0",
+    "user-module": "git+https://github.com/HyveMynd/user-module.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
